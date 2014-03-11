@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8AAC571-9BAE-4499-9BE9-B32013315472}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CourseCalendar</RootNamespace>
+    <AssemblyName>CourseCalender</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells, Version=4.3.0.0, Culture=neutral, PublicKeyToken=9a40d5a4b59e5256, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\Aspose.Cells.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=9.5.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="FISCA, Version=2.1.2.10, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Authentication, Version=1.9.0.11, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.Authentication.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Core, Version=1.0.1.2, Culture=neutral, PublicKeyToken=a269f410f9e2a287, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Data, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Deployment, Version=1.0.0.13, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.Deployment.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Deployment.Administration, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.Deployment.Administration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.DSAClient, Version=1.0.1.12, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.DSAClient.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.DSAUtil, Version=3.9.0.10, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.DSAUtil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.LogAgent, Version=1.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.LogAgent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Login, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.Login.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Permission, Version=1.1.0.11, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.Permission.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Presentation, Version=1.1.0.15, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.Presentation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.Synchronization, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.Synchronization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="FISCA.UDT, Version=1.0.2.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\FISCA.UDT.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.GData.AccessControl, Version=1.4.0.2, Culture=neutral, PublicKeyToken=b4b8eb9a7afc8328, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\Google.GData.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Calendar, Version=1.4.0.2, Culture=neutral, PublicKeyToken=aa6748391206b888, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\Google.GData.Calendar.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Client, Version=1.4.0.2, Culture=neutral, PublicKeyToken=04a59ca9b0273830, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\Google.GData.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Extensions, Version=1.4.0.2, Culture=neutral, PublicKeyToken=0b4c5df2ebf20876, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\Google.GData.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="K12.Data, Version=1.8.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\K12.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="K12.Presentation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>library\K12.Presentation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calendar.cs" />
+    <Compile Include="Case.cs" />
+    <Compile Include="DataItems\ClassItem.cs" />
+    <Compile Include="DataItems\CourseItem.cs" />
+    <Compile Include="DataItems\SemesterItem.cs" />
+    <Compile Include="DataItems\TagItem.cs" />
+    <Compile Include="DataItems\TeacherItem.cs" />
+    <Compile Include="DataItems\CaseItem.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RepeatSectionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RepeatSectionDialog.Designer.cs">
+      <DependentUpon>RepeatSectionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResetCalendar.cs" />
+    <Compile Include="SCAttendExt.cs" />
+    <Compile Include="Section.cs" />
+    <Compile Include="SectionDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SectionDetail.Designer.cs">
+      <DependentUpon>SectionDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SectionSyncColumn.cs" />
+    <Compile Include="SyncSCAttend.cs" />
+    <Compile Include="SyncSection.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RepeatSectionDialog.resx">
+      <DependentUpon>RepeatSectionDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SectionDetail.resx">
+      <DependentUpon>SectionDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="library\fisca.config" />
+    <None Include="library\FISCA.dll.config" />
+    <None Include="library\Google.GData.Calendar.dll.refresh" />
+    <None Include="library\Google.GData.Client.dll.refresh" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="library\Aspose.Cells.dll" />
+    <Content Include="library\Aspose.Cells.xml" />
+    <Content Include="library\FISCA.Authentication.dll" />
+    <Content Include="library\FISCA.Authentication.pdb" />
+    <Content Include="library\FISCA.Authentication.xml" />
+    <Content Include="library\FISCA.Core.dll" />
+    <Content Include="library\FISCA.Core.pdb" />
+    <Content Include="library\FISCA.Core.xml" />
+    <Content Include="library\FISCA.Data.dll" />
+    <Content Include="library\FISCA.Data.pdb" />
+    <Content Include="library\FISCA.Data.xml" />
+    <Content Include="library\FISCA.Deployment.Administration.dll" />
+    <Content Include="library\FISCA.Deployment.Administration.pdb" />
+    <Content Include="library\FISCA.Deployment.Administration.xml" />
+    <Content Include="library\FISCA.Deployment.dll" />
+    <Content Include="library\FISCA.Deployment.pdb" />
+    <Content Include="library\FISCA.Deployment.xml" />
+    <Content Include="library\FISCA.dll" />
+    <Content Include="library\FISCA.DSAClient.dll" />
+    <Content Include="library\FISCA.DSAClient.pdb" />
+    <Content Include="library\FISCA.DSAClient.xml" />
+    <Content Include="library\FISCA.DSAUtil.dll" />
+    <Content Include="library\FISCA.DSAUtil.pdb" />
+    <Content Include="library\FISCA.DSAUtil.xml" />
+    <Content Include="library\FISCA.LogAgent.dll" />
+    <Content Include="library\FISCA.LogAgent.pdb" />
+    <Content Include="library\FISCA.LogAgent.xml" />
+    <Content Include="library\FISCA.Login.dll" />
+    <Content Include="library\FISCA.Login.pdb" />
+    <Content Include="library\FISCA.Login.xml" />
+    <Content Include="library\FISCA.pdb" />
+    <Content Include="library\FISCA.Permission.dll" />
+    <Content Include="library\FISCA.Permission.pdb" />
+    <Content Include="library\FISCA.Permission.xml" />
+    <Content Include="library\FISCA.Presentation.dll" />
+    <Content Include="library\FISCA.Presentation.pdb" />
+    <Content Include="library\FISCA.Presentation.xml" />
+    <Content Include="library\FISCA.Synchronization.dll" />
+    <Content Include="library\FISCA.Synchronization.pdb" />
+    <Content Include="library\FISCA.Synchronization.xml" />
+    <Content Include="library\FISCA.UDT.dll" />
+    <Content Include="library\FISCA.UDT.pdb" />
+    <Content Include="library\FISCA.UDT.xml" />
+    <Content Include="library\FISCA.xml" />
+    <Content Include="library\Google.GData.AccessControl.dll" />
+    <Content Include="library\Google.GData.Calendar.dll" />
+    <Content Include="library\Google.GData.Client.dll" />
+    <Content Include="library\Google.GData.Extensions.dll" />
+    <Content Include="library\K12.Data.dll" />
+    <Content Include="library\K12.Data.pdb" />
+    <Content Include="library\K12.Data.xml" />
+    <Content Include="library\K12.Presentation.dll" />
+    <Content Include="library\K12.Presentation.pdb" />
+    <Content Include="library\K12.Presentation.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

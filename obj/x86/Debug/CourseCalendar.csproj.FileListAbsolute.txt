@@ -1,0 +1,13 @@
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\bin\debug\CourseCalender.dll
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\bin\debug\CourseCalender.pdb
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\bin\debug\Google.GData.AccessControl.dll
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\bin\debug\Google.GData.Calendar.dll
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\bin\debug\Google.GData.Client.dll
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\bin\debug\Google.GData.Extensions.dll
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.csprojResolveAssemblyReference.cache
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.Properties.Resources.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.RepeatSectionDialog.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.SectionDetail.resources
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.csproj.GenerateResource.Cache
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\obj\x86\Debug\CourseCalender.dll
+E:\TFServer2013\ischoolteam\ischool_EMBA\CourseCalender\obj\x86\Debug\CourseCalender.pdb
