@@ -17,10 +17,10 @@ E:\github\NTU_EMBA\CourseCalender\bin\debug\Google.GData.AccessControl.dll
 E:\github\NTU_EMBA\CourseCalender\bin\debug\Google.GData.Calendar.dll
 E:\github\NTU_EMBA\CourseCalender\bin\debug\Google.GData.Client.dll
 E:\github\NTU_EMBA\CourseCalender\bin\debug\Google.GData.Extensions.dll
+E:\github\NTU_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.csprojResolveAssemblyReference.cache
 E:\github\NTU_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.Properties.Resources.resources
 E:\github\NTU_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.RepeatSectionDialog.resources
 E:\github\NTU_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.SectionDetail.resources
 E:\github\NTU_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.csproj.GenerateResource.Cache
 E:\github\NTU_EMBA\CourseCalender\obj\x86\Debug\CourseCalender.dll
 E:\github\NTU_EMBA\CourseCalender\obj\x86\Debug\CourseCalender.pdb
-E:\github\NTU_EMBA\CourseCalender\obj\x86\Debug\CourseCalendar.csprojResolveAssemblyReference.cache
